@@ -1,0 +1,7 @@
+
+int main() {
+  float area = 1.34;
+  putfloat(area);
+  putch(10);
+  return 0;
+}

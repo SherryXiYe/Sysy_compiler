@@ -1,0 +1,43 @@
+       token              lexeme      lineno      offset             pointer
+         INT                 int           1           0
+          ID                   a           1           4      0x557cb1e3b340
+   SEMICOLON                   ;           1           4
+         INT                 int           3           0
+          ID                main           3           7      0x557cb1e3b398
+      LPAREN                   (           3           7
+      RPAREN                   )           3           8
+      LBRACE                   {           4           0
+         INT                 int           5           0
+          ID                   a           5           4      0x557cb1e3b370
+   SEMICOLON                   ;           5           4
+          ID                   a           6           1      0x557cb1e3b370
+      ASSIGN                   =           6           1
+       FLOAT    110000000.000000           6           2
+         ADD                   +           6           7
+     INTEGER                   2           6           8
+   SEMICOLON                   ;           6           9
+          IF                  if           7           0
+      LPAREN                   (           7           2
+          ID                   a           7           4      0x557cb1e3b370
+        LESS                   <           7           4
+     INTEGER                   5           7           5
+      RPAREN                   )           7           6
+      RETURN              return           8           0
+     INTEGER                   1           8           6
+   SEMICOLON                   ;           8           7
+         INT                 int           9           0
+          ID                   b           9           4      0x557cb1e3b3f0
+   SEMICOLON                   ;           9           4
+          ID                   b          10           1      0x557cb1e3b3f0
+      ASSIGN                   =          10           1
+     INTEGER                  16          10           2
+   SEMICOLON                   ;          10           6
+         INT                 int          11           0
+          ID                   c          11           4      0x557cb1e3b448
+      ASSIGN                   =          11           4
+     INTEGER                   8          11           5
+   SEMICOLON                   ;          11           8
+      RETURN              return          12           0
+     INTEGER                   0          12           6
+   SEMICOLON                   ;          12           7
+      RBRACE                   }          13           0

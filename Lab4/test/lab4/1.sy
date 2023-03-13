@@ -1,0 +1,13 @@
+int a;
+
+int main()
+{
+    int a;
+    a = 1.1e8 + 2;
+    if(a < 5)
+        return 1;
+    int b;
+    b = 0x10;
+    int c=010;
+    return 0;
+}
